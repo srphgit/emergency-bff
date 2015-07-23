@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:splitMotionEvents="false">
+
+    <LinearLayout
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:background="@drawable/button_effect"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtItem1Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/hospital"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtItem1Distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="distance"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtItem1Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hospital_info"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtItem1Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_call_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_call" />
+    </LinearLayout>
+
+<!--    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />-->
+
+    <LinearLayout
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:background="@drawable/button_effect"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtItem2Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/hospital"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtItem2Distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="distance"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtItem2Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hospital_info"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/txtItem2Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_call_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_call" />
+    </LinearLayout>
+
+<!--    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />-->
+
+    <LinearLayout
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:background="@drawable/button_effect"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtItem3Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/hospital"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtItem3Distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="distance"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtItem3Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hospital_info"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtItem3Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_info_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_call_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_call" />
+    </LinearLayout>
+
+</LinearLayout>

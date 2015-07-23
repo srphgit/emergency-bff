@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_color"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:minHeight="?attr/actionBarSize"
+        app:elevation="5dp"
+        app:theme="@style/AppTheme"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/ic_launcher">
+
+                <requestFocus />
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|right">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img_search_bar"
+                android:drawableRight="@drawable/searchbtn"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:fontFamily="sans-serif-light"
+                android:padding="5dp"
+                android:maxWidth="96dp"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Search City"
+                android:imeOptions="actionSearch"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:textColor="@color/primary_color"/>
+
+                <ImageButton
+                    android:id="@+id/imgbtn_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/ic_action_overflow"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+<!--            <menu>
+                &lt;!&ndash; Search, should appear as action button &ndash;&gt;
+                <item android:id="@+id/action_search"
+                    android:icon="@drawable/ic_action_search"/>
+                    &lt;!&ndash;android:title="@string/action_search"&ndash;&gt;
+                    android:showAsAction="ifRoom"
+                &lt;!&ndash; Settings, should always be in the overflow &ndash;&gt;
+                <item android:id="@+id/action_settings"/>
+                    &lt;!&ndash;android:title="@string/action_settings"&ndash;&gt;
+                    android:showAsAction="never"
+            </menu>-->
+
+        </FrameLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/drop_shadow" />
+
+</LinearLayout>

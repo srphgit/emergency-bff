@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emergency</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="call_nearest_header">Call Nearest</string>
+    <string name="police_station">Police Station</string>
+    <string name="fire_department">Fire Department</string>
+    <string name="hospital">Hospital</string>
+    <string name="ambulance">Ambulance</string>
+
+    <!-- sample texts -->
+    <string name="police_info">Taguig City Police Department\n(02) 444-8181</string>
+    <string name="fire_dept_info">Taguig City Fire Department\n(02) 444-8218</string>
+    <string name="hospital_info">St. Lukes Medical Center\n(02) 444-9281</string>
+    <string name="ambulance_info">Lifeline Rescues Inc\n(02) 444-9231</string>
+
+</resources>

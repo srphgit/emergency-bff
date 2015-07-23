@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="location_text_color">#809904</color>
+    <color name="button_pressed">#dfdfdf</color>
+    <color name="button_default">#fcfcf9</color>
+    <color name="location_background">#fffef7</color>
+    <color name="primary_color">#DB4336</color>
+    <color name="primary_dark_color">#CC0000</color>
+    <color name="text_info_color">#484848</color>
+    <color name="text_label_color">#5d5d5d</color>
+</resources>

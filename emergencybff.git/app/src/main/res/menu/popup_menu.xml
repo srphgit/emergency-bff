@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_sync"
+        android:icon="@drawable/ic_sync"
+        android:title="Sync data"/>
+
+    <item
+        android:id="@+id/item_about"
+        android:icon="@drawable/ic_about"
+        android:title="About 321"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_help"
+        android:icon="@drawable/ic_help"
+        android:title="Help"
+        android:visible="false"/>
+
+
+</menu>  
